@@ -33,7 +33,7 @@
     .portrait-face { position: absolute; inset: 0; border: 1px solid var(--line); background: white; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
     .portrait img { display: block; width: 100%; height: 100%; object-fit: contain; }
     .portrait-back { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; transform: rotateY(180deg); }
-    .portrait-back svg { width: 108px; height: 72px; }
+    .portrait-back .flag { width: 108px; height: 72px; object-fit: contain; }
     .portrait-name { font-size: 1rem; font-weight: 600; }
     @media (prefers-reduced-motion: reduce) { .portrait-inner { transition: none; } }
     section { padding: 76px 0; border-bottom: 1px solid var(--line); }
@@ -89,27 +89,7 @@
         <span class="portrait-inner">
           <span class="portrait-face portrait-front"><img src="assets/profile.jpg" alt="Portrait of gradualdev" width="413" height="532"></span>
           <span class="portrait-face portrait-back" aria-hidden="true">
-            <svg viewBox="0 0 180 120" role="img" aria-label="Flag of South Korea">
-              <rect width="180" height="120" fill="white"/>
-              <g transform="translate(90 60)">
-                <circle r="30" fill="#0047a0"/>
-                <path d="M -30 0 A 30 30 0 0 1 30 0 A 15 15 0 0 0 0 0 A 15 15 0 0 1 -30 0 Z" fill="#cd2e3a"/>
-              </g>
-              <g fill="#111">
-                <g transform="translate(34 28) rotate(-56.31)">
-                  <path d="M-15-9h30v4h-30z M-15-2h30v4h-30z M-15 5h30v4h-30z"/>
-                </g>
-                <g transform="translate(146 92) rotate(-56.31)">
-                  <path d="M-15-9h13v4h-13z M2-9h13v4H2z M-15-2h13v4h-13z M2-2h13v4H2z M-15 5h13v4h-13z M2 5h13v4H2z"/>
-                </g>
-                <g transform="translate(146 28) rotate(56.31)">
-                  <path d="M-15-9h13v4h-13z M2-9h13v4H2z M-15-2h30v4h-30z M-15 5h13v4h-13z M2 5h13v4H2z"/>
-                </g>
-                <g transform="translate(34 92) rotate(56.31)">
-                  <path d="M-15-9h30v4h-30z M-15-2h13v4h-13z M2-2h13v4H2z M-15 5h30v4h-30z"/>
-                </g>
-              </g>
-            </svg>
+            <img class="flag" src="assets/taegeukgi.png" alt="Flag of South Korea" width="900" height="600">
             <span class="portrait-name">Ho JoonSoo</span>
           </span>
         </span>
