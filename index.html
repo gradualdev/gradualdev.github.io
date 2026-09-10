@@ -46,6 +46,8 @@
     h3 { margin: 0 0 9px; font-size: 1.15rem; letter-spacing: -.03em; }
     .role { margin: 0 0 15px; color: var(--muted); font-size: .9rem; }
     .description { max-width: 600px; margin: 0; color: #495759; font-size: .95rem; line-height: 1.72; }
+    .work-list { display: grid; gap: 11px; margin: 18px 0 0; padding: 0; list-style: none; color: #495759; font-size: .92rem; line-height: 1.6; }
+    .work-list span { display: inline-block; min-width: 72px; color: var(--accent); font: .72rem "DM Mono", monospace; text-transform: uppercase; }
     .logo-mark { display: flex; width: 140px; height: 120px; align-items: center; justify-content: center; }
     .logo-mark img { display: block; width: 88px; height: 92px; object-fit: contain; }
     .softionics-mark img { width: 140px; height: 120px; }
@@ -78,7 +80,7 @@
     <nav aria-label="Main navigation">
       <a class="brand" href="#top">Ho JoonSoo</a>
       <div class="nav-links">
-        <a href="#career">Career</a>
+        <a href="#career">Experience</a>
         <a href="#interests">Interests</a>
         <a href="#contact">Contact</a>
       </div>
@@ -104,15 +106,18 @@
 
     <section id="career">
       <div class="section-header">
-        <div><span class="label">Career</span><h2>Where I am learning</h2></div>
+        <div><span class="label">Background</span><h2>Experience &amp; Education</h2></div>
         <span class="section-no">01</span>
       </div>
       <article class="experience">
         <div class="date"><span>Dec 2025 — Present</span><div class="logo-mark softionics-mark"><img src="assets/softionics-logo.png" alt="Softionics logo"></div></div>
         <div>
-          <h3>Firmware Engineering Intern · Softionics</h3>
-          <p class="role">Multi-sensor firmware development</p>
-          <p class="description">I am contributing to firmware for multi-sensor systems. My current project investigates ways to increase a board’s sampling rate while maintaining a reliable, synchronized acquisition path.</p>
+          <h3>Intern · Softionics</h3>
+          <p class="role">Engineering internship across firmware and circuit design</p>
+          <ul class="work-list">
+            <li><span>Firmware</span> Multi-sensor firmware development and a board sampling-rate optimization project.</li>
+            <li><span>Next</span> LDO IC design, planned for Fall 2026.</li>
+          </ul>
         </div>
       </article>
       <article class="experience">

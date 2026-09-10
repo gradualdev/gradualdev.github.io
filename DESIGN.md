@@ -22,7 +22,7 @@ These notes record the current design and the owner's preferences. Read them bef
 
 - Centered content, maximum width 880px; horizontal padding 28px on desktop and 20px on mobile.
 - Intro: 180px portrait at the upper left, brief biography to its right, with a 40px gap.
-- Career: dates and institution logos in the left column; role and description in the right column.
+- Experience & Education: dates and institution logos in the left column; role and concise details in the right column.
 - Keep Focus, Interests, and Contact below the introduction and career entries.
 - At widths of 620px or less, stack the intro and career columns; put the portrait before the biography.
 - Preserve comfortable section spacing and thin dividing lines.
@@ -39,6 +39,7 @@ These notes record the current design and the owner's preferences. Read them bef
 ## Content
 
 - Use factual, concise descriptions. Distinguish completed experience from planned work.
+- Use broad role titles such as "Intern" when one position covers several types of work; list firmware, circuit, and planned IC work as concise details underneath.
 - Interests include Circuit Design, Analog & Mixed-Signal IC Design, Processing-in-Memory (PIM), Computer Architecture, Memory Systems, and Hardware–Software Co-design.
 - Contact entries use working tel: and mailto: links.
 - Do not invent project results, metrics, or credentials.
